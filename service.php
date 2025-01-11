@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="../css/portfolio.css">
-    <link rel="stylesheet" href="../css/responsiv.css">
-    <link href="../css/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/responsiv.css">
+    <link href="./css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 <body>
 
@@ -73,7 +74,7 @@
                 </div>
                 <div class="forslide"data-aos="zoom-out-up"data-aos-easing="linear"
                 data-aos-duration="800">
-                     <img src="../images/Screenshot 2024-12-09 191458.png" alt="Responsiv Webpage" class="wepage">
+                     <img src="./images/Screenshot 2024-12-09 191458.png" alt="Responsiv Webpage" class="wepage">
                      <div class="innerslide1">
                         <P>This webpage is design with HTML CSS & JS</P>
                         <p>A fully responsive webpage</p>
@@ -92,7 +93,7 @@
                   </p>
                 </div>
                 <div class="review-content">
-                    <img src="../images/team-1.jpg" alt="">
+                    <img src="./images/team-1.jpg" alt="">
                     <span class="rajan">Rajan Kushwaha</span>
                     <span>Devariya</span>
                 </div>

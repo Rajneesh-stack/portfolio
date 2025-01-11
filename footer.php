@@ -17,7 +17,7 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="service.php">Service</a></li>
                             <li><a href="about.php">About us</a></li>
-                            <li><a href="ontact.php">Contact us</a></li>
+                            <li><a href="contact.php">Contact us</a></li>
                         </ul>
                     </div>
                     <div class="foot3">
@@ -28,14 +28,16 @@
                     </div>
                     <div class="foot4">
                         <h4>Do you have any project lets talk,</h4>
-                        <button onclick="opennewpage()">Tell Us</button>
+                        <div class="last-button">
+                            <button onclick="opennewpage()">Tell Us</button>
+                        </div>
                     </div>
                     
                 </footer>
-                <script src="../js/portfolio.js" type="text/javascript">
+                <script src="./js/portfolio.js" type="text/javascript">
                 </script>
                  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-                  <script src="../aos/aos.js"></script>
+                  <script src="./aos/aos.js"></script>
                  <script>
   AOS.init();
 </script>

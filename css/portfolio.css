@@ -22,7 +22,7 @@
     color: #db9a64;
     font-size: 1.3rem;
     text-transform: uppercase;
-    padding-left: 70px;
+    padding-left: 40px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;   
 }
@@ -55,6 +55,7 @@
     border:  1px solid #db9a64;
     background-color: #311e25;
     color: #db9a64;
+    margin-left: 20px;
     font-size: 1.05rem;
 }
 .lets-talk:hover{
@@ -70,7 +71,7 @@
 
 }
 .extra-navbar{
-    height: 50vh;
+    min-height: 255px;
     width: 100%;
     display:  flex;
     display: none;
@@ -96,7 +97,8 @@
     color: #db9a64;
     font-size: 1.05rem;
 }
-/* navbar css start */
+/* navbar css start */
+
 
 /* hero section css start */
 .hero-section{
@@ -155,7 +157,8 @@
     border: 15px solid #db9a64;
     border-radius: 100%;
 }
-/* hero section css end */
+/* hero section css end */
+
 
 /* about section is start */
 .about{
@@ -254,7 +257,8 @@
     border-radius: 10px;
 }
 
-/* about section is end */
+/* about section is end */
+
 
 /* my service section start */
 .my-service{
@@ -274,7 +278,7 @@
     font-weight: 200;
 }
 .my-service .service-content{
-    height: 350px;
+    min-height: 350px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -284,13 +288,15 @@
 .service-content .service-content1{
     min-height: 220px;
     width: 25%;
+    display: inline-block;
+    text-align: center;
     /* margin: 0px 25px; */
     border: 1px solid #db9a64;
 }
 .service-content1 .fa-laptop{
     font-size: 3rem;
     color: white;
-    padding-left: 125px;
+    /* padding-left: 125px; */
     padding-top: 60px;   
 }
 .service-content1 h4{
@@ -307,10 +313,6 @@
     font-weight: 100;
     text-align: center;
 }
-
-
-/* my service section end */
-
 /* my work section start */
 .my-work{
     min-height: 400px;
@@ -387,16 +389,17 @@
 }
 
 
-/* my work section end */
+/* my work section end */
 
- /* client review section start */
- .review{
+
+/* client review section start */
+.review{
     min-height: 360px;
     width:100%;
     background-color: #311e25e4;
  }
  .review .review-heading{
-    height: 250px;
+   min-height:215px;
     width: 100%;
  }
  .review-heading h4{
@@ -416,7 +419,7 @@
  }
  
 .review-content{
-    height: 100px;
+    min-height: 100px;
     width: 100%;
     position: relative;
 }
@@ -433,16 +436,17 @@
     top: 20px;
     position: absolute;
     color: #db9a64;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
  }
  .review-content span{
     top: 45px;
     position: absolute;
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
  }
 
-    /* client review section end */
+    /* client review section end */
+
 
 
      /* form css */
@@ -541,7 +545,7 @@
         justify-content: center;
     }
     .footer .foot1{
-        height: 300px;
+        min-height: 200px;
         width: 23%;
     }
     .foot1 h4{
@@ -566,7 +570,7 @@
         cursor: pointer;
     }   
     .footer .foot2{
-        height: 300px;
+        min-height: 200px;
         width: 22%;
     }
     .foot2 h4{
@@ -589,7 +593,7 @@
         text-decoration: none;
     }
     .footer .foot3{
-        height: 300px;
+        min-height: 200px;
         width: 22%;
     }
     .foot3 h4{
@@ -617,7 +621,7 @@
         padding-left: 10px;
     }
     .footer .foot4{
-        height: 300px;
+        min-height: 200px;
         width: 22%;
     }
     .foot4 h4{
@@ -631,16 +635,22 @@
         width: 170px;
         background-color: #311e25;
         margin-top: 60px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
         color: white;
         font-size: 1rem;
         border: 1px solid #db9a64;
+    }
+    .last-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .foot4 button:hover{
         color: white;
         background-color: #db9a64;
     }
-    /* footer css is end */
+    /* footer css is end */
+
 
    
 
